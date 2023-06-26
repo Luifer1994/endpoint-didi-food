@@ -1,0 +1,30 @@
+_id: req_b6d8b5857eb44492bc7c029ece7ac108
+type: Request
+parentId: fld_b110f8049939463e95d82c63c88af096
+modified: 1686504446433
+created: 1686405311778
+url: "{{ _.URLDEV }}get-page-autorizate"
+name: Pagina de autorizacion
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id_company": 1,
+    	"app_shop_id": "12345678",
+    	"id_organization": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686405311778
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

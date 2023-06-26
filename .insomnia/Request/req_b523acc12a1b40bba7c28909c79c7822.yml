@@ -1,0 +1,30 @@
+_id: req_b523acc12a1b40bba7c28909c79c7822
+type: Request
+parentId: fld_c681b684e3d34250af9694a9feab88ee
+modified: 1686504511495
+created: 1686405006141
+url: "{{ _.URLDEV }}categories"
+name: Listar categorias
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id_company": 1,
+    	"app_shop_id": "12345678",
+    	"id_organization": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686405006142
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_4f3bff35a9b8451383d20dec4c072c87
+type: Request
+parentId: fld_396505346a694293835af5f0ffe4e51c
+modified: 1686698538057
+created: 1686405373540
+url: "{{ _.URLDEV }}items-didi-api"
+name: Lisar items didiapi
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id_company": 1,
+    	"app_shop_id": "12345678",
+    	"id_organization": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686405373540
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

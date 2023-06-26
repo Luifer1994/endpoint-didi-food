@@ -1,0 +1,30 @@
+_id: req_f62dc4236c1f47ed839c3f6c441ddb1b
+type: Request
+parentId: fld_396505346a694293835af5f0ffe4e51c
+modified: 1686504423669
+created: 1686405199359
+url: "{{ _.URLDEV }}menus-the-company"
+name: Menus de la compañia
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id_company": 1,
+    	"app_shop_id": "12345678",
+    	"id_organization": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686405199359
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

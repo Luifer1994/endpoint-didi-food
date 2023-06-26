@@ -1,0 +1,31 @@
+_id: req_0a6f216876224848bfff4a6a544af97c
+type: Request
+parentId: fld_396505346a694293835af5f0ffe4e51c
+modified: 1686697746095
+created: 1686405433195
+url: "{{ _.URLDEV }}consult-state-menu-didi-api"
+name: Consultar estados de menuis api-didi
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id_company": 1,
+    	"app_shop_id": "12345678",
+    	"id_organization": 1,
+    	"task_id":"5764619811998794785"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686405433195
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

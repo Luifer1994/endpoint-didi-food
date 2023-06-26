@@ -1,0 +1,30 @@
+_id: req_a4b6c58499a04805bd398a4bfcc24182
+type: Request
+parentId: fld_396505346a694293835af5f0ffe4e51c
+modified: 1686451591749
+created: 1686405240771
+url: "{{ _.URLDEV }}upload-menu"
+name: Subir menis
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id_company": 1,
+    	"app_shop_id": "12345678",
+    	"id_organization": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686405240771
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
